@@ -1,0 +1,800 @@
+> summary(indval)
+
+ Multilevel pattern analysis
+ ---------------------------
+
+ Association function: IndVal.g
+ Significance level (alpha): 0.05
+
+ Total number of species: 687
+ Selected number of species: 9 
+ Number of species associated to 1 group: 9 
+ Number of species associated to 2 groups: 0 
+ Number of species associated to 3 groups: 0 
+ Number of species associated to 4 groups: 0 
+ Number of species associated to 5 groups: 0 
+ Number of species associated to 6 groups: 0 
+ Number of species associated to 7 groups: 0 
+ Number of species associated to 8 groups: 0 
+ Number of species associated to 9 groups: 0 
+
+ List of species associated to each combination: 
+
+ Group 6  #sps.  1 
+              stat p.value  
+Gila_eremica 0.973    0.04 *
+
+ Group 9  #sps.  2 
+                    stat p.value  
+Evarra_bustamantei 0.316   0.047 *
+Evarra_eigenmanni  0.316   0.047 *
+
+ Group 10  #sps.  6 
+                          stat p.value  
+Cyprinodon_alvarezi      1.000   0.017 *
+Cyprinodon_inmemoriam    1.000   0.017 *
+Megupsilon_aporus        1.000   0.017 *
+Cyprinodon_ceciliae      0.994   0.030 *
+Cyprinodon_longidorsalis 0.994   0.030 *
+Cyprinodon_veronicae     0.994   0.030 *
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+> #Resumen de todas las especies que considera indicadoras, escoger las que son mayores a 0.7 para compararlas con las de Rico
+> summary(indval,alpha=1)
+
+ Multilevel pattern analysis
+ ---------------------------
+
+ Association function: IndVal.g
+ Significance level (alpha): 1
+
+ Total number of species: 687
+ Selected number of species: 687 
+ Number of species associated to 1 group: 656 
+ Number of species associated to 2 groups: 30 
+ Number of species associated to 3 groups: 1 
+ Number of species associated to 4 groups: 0 
+ Number of species associated to 5 groups: 0 
+ Number of species associated to 6 groups: 0 
+ Number of species associated to 7 groups: 0 
+ Number of species associated to 8 groups: 0 
+ Number of species associated to 9 groups: 0 
+
+ List of species associated to each combination: 
+
+ Group 1  #sps.  3 
+                      stat p.value  
+Fundulus_parvipinnis 0.866   0.192  
+Fundulus_lima        0.612   0.133  
+Oncorhynchus_mykiss  0.433   0.087 .
+
+ Group 2  #sps.  1 
+                       stat p.value  
+Catostomus_bernardini 0.888   0.093 .
+
+ Group 3  #sps.  1 
+                      stat p.value  
+Xenoophorus_captivus 0.909    0.09 .
+
+ Group 4  #sps.  388 
+                               stat p.value
+Poecilia_mexicana             0.721   0.468
+Rhamdia_guatemalensis         0.597   0.682
+Belonesox_belizanus           0.591   0.673
+Rhamdia_laticauda             0.591   0.653
+Mayaheros_urophthalmus        0.579   0.640
+Rocio_octofasciata            0.549   0.574
+Brycon_guatemalensis          0.536   0.594
+Gambusia_yucatana             0.523   0.552
+Cribroheros_robertsoni        0.497   0.604
+Pseudophallus_starksii        0.490   0.575
+Trichromis_salvini            0.483   0.582
+Gambusia_sexradiata           0.471   0.585
+Poeciliopsis_turrubarensis    0.468   0.553
+Hyphessobrycon_compressus     0.453   0.541
+Roeboides_bouchellei          0.453   0.553
+Xiphophorus_maculatus         0.449   0.559
+Poeciliopsis_pleurospilus     0.446   0.542
+Cynodonichthys_tenuis         0.438   0.531
+Petenia_splendida             0.438   0.519
+Parachromis_multifasciatus    0.430   0.501
+Phallichthys_amates           0.430   0.559
+Poeciliopsis_fasciata         0.430   0.545
+Thorichthys_meeki             0.414   0.474
+Cribroheros_longimanus        0.405   0.511
+Gymnotus_cylindricus          0.405   0.511
+Vieja_maculicauda             0.405   0.497
+Profundulus_punctatus         0.397   0.471
+Amphilophus_trimaculatus      0.388   0.455
+Cryptoheros_spilurus          0.388   0.494
+Dorosoma_anale                0.388   0.428
+Parachromis_dovii             0.388   0.485
+Thorichthys_helleri           0.388   0.452
+Atherinella_alvarezi          0.379   0.437
+Atractosteus_tropicus         0.361   0.426
+Gambusia_nicaraguensis        0.361   0.437
+Vieja_fenestrata              0.356   0.447
+Parachromis_friedrichsthalii  0.351   0.433
+Poecilia_orri                 0.351   0.423
+Alfaro_cultratus              0.341   0.394
+Anableps_dowii                0.341   0.357
+Parachromis_managuensis       0.341   0.418
+Poecilia_kykesis              0.341   0.395
+Roeboides_guatemalensis       0.341   0.393
+Amatitlania_siquia            0.321   0.391
+Garmanella_pulchra            0.321   0.370
+Phallichthys_fairweatheri     0.321   0.361
+Pseudophallus_mindii          0.321   0.369
+Amatitlania_nigrofasciata     0.310   0.360
+Andinoacara_coeruleopunctatus 0.310   0.333
+Astatheros_macracanthus       0.310   0.345
+Atherinella_schultzi          0.310   0.362
+Carlhubbsia_kidderi           0.310   0.358
+Eugerres_mexicanus            0.310   0.373
+Jordanella_pulchra            0.310   0.345
+Poecilia_gillii               0.310   0.331
+Pseudoxiphophorus_anzuetoi    0.310   0.394
+Trichomycterus_striatus       0.310   0.338
+Vieja_melanurus               0.310   0.351
+Alfaro_huberi                 0.298   0.391
+Cincelichthys_pearsei         0.298   0.358
+Herotilapia_multispinosa      0.298   0.363
+Oscura_heterospila            0.298   0.352
+Poeciliopsis_gracilis         0.298   0.341
+Potamarius_nelsoni            0.298   0.357
+Thorichthys_pasionis          0.298   0.356
+Thorichthys_maculipinnis      0.293   0.393
+Astyanax_panamensis           0.287   0.311
+Atherinella_guatemalensis     0.287   0.349
+Pimelodella_chagresi          0.287   0.335
+Poecilia_marcellinoi          0.287   0.346
+Poecilia_salvatoris           0.287   0.331
+Poecilia_velifera             0.287   0.337
+Poeciliopsis_scarlli          0.287   0.344
+Tlaloc_labialis               0.287   0.330
+Brycon_behreae                0.274   0.326
+Cyphocharax_magdalenae        0.274   0.317
+Floridichthys_polyommus       0.274   0.346
+Hemibrycon_dariensis          0.274   0.300
+Hiatirhaphis_cascajalensis    0.274   0.333
+Hyphessobrycon_tortuguerae    0.274   0.394
+Hypostomus_aspidolepis        0.274   0.315
+Ictalurus_meridionalis        0.274   0.334
+Neetroplus_nematopus          0.274   0.332
+Poeciliopsis_elongata         0.274   0.305
+Compsura_gorgonae             0.262   0.294
+Cribroheros_rostratus         0.262   0.317
+Cryptoheros_cutteri           0.262   0.362
+Cyprinodon_artifrons          0.262   0.327
+Hoplias_microlepis            0.262   0.294
+Parachromis_motaguensis       0.262   0.345
+Priapichthys_panamensis       0.262   0.320
+Roeboides_occidentalis        0.262   0.305
+Amphilophus_citrinellus       0.248   0.360
+Atherinella_chagresi          0.248   0.385
+Cribroheros_alfari            0.248   0.382
+Gephyrocharax_atracaudatus    0.248   0.370
+Hyporhamphus_mexicanus        0.248   0.384
+Poeciliopsis_presidionis      0.248   0.349
+Rhamdia_parryi                0.248   0.370
+Rheoheros_lentiginosus        0.248   0.389
+Rineloricaria__uracantha      0.248   0.362
+Talamancaheros_sieboldii      0.248   0.365
+Thorichthys_affinis           0.248   0.368
+Thorichthys_callolepis        0.248   0.350
+Poeciliopsis_latidens         0.241   0.527
+Astyanax_altior               0.234   0.359
+Atherinella_milleri           0.234   0.366
+Atherinella_sallei            0.234   0.329
+Brachyhypopomus_occidentalis  0.234   0.310
+Eretmobrycon_scleroparius     0.234   0.364
+Gasteropelecus_maculatus      0.234   0.343
+Neoheterandria_tridentiger    0.234   0.334
+Poeciliopsis_hnilickai        0.234   0.332
+Profundulus_guatemalensis     0.234   0.345
+Rhamdia_nicaraguensis         0.234   0.353
+Theraps_irregularis           0.234   0.354
+Xiphophorus_alvarezi          0.234   0.346
+Archocentrus_centrarchus      0.219   0.296
+Chuco_godmanni                0.219   0.304
+Chuco_intermedium             0.219   0.317
+Cynodonichthys_isthmensis     0.219   0.305
+Gambusia_luma                 0.219   0.302
+Gephyrocharax_intermedius     0.219   0.295
+Hoplias_malabaricus           0.219   0.297
+Hypsophrys_nicaraguensis      0.219   0.303
+Odontostilbe_dialeptura       0.219   0.286
+Oxyzygonectes_dovii           0.219   0.300
+Poeciliopsis_lutzi            0.219   0.272
+Poeciliopsis_retropinna       0.219   0.298
+Priapella_intermedia          0.219   0.311
+Priapichthys_annectens        0.219   0.305
+Priapichthys_darienensis      0.219   0.291
+Pseudocheirodon_arnoldi       0.219   0.306
+Thorichthys_aureus            0.219   0.314
+Vieja_guttulata               0.219   0.300
+Vieja_zonata                  0.219   0.337
+Xiphophorus_mayae             0.219   0.301
+Astyanax_bransfordii          0.203   0.353
+Brachyrhaphis_episcopi        0.203   0.325
+Brachyrhaphis_roseni          0.203   0.323
+Brycon_striatulus             0.203   0.356
+Carlana_eigenmanni            0.203   0.341
+Creagrutus_affinis            0.203   0.318
+Ctenolucius_beani             0.203   0.323
+Geophagus_crassilabris        0.203   0.318
+Gymnotus_maculosus            0.203   0.325
+Heptapterus_panamensis        0.203   0.301
+Heterophallus_echeagarayi     0.203   0.366
+Lasiancistrus_caucanus        0.203   0.341
+Poecilia_caucana              0.203   0.338
+Poecilia_hondurensis          0.203   0.351
+Priapella_compressa           0.203   0.349
+Sturisomatichthys_panamensis  0.203   0.310
+Tomocichla_tuba               0.203   0.356
+Wajpamheros_nourissati        0.203   0.315
+Xenophallus_umbratilis        0.203   0.350
+Xiphophorus_clemenciae        0.203   0.355
+Ancistrus_chagresi            0.185   0.442
+Astyanax_orstedii             0.185   0.465
+Atherinella_meeki             0.185   0.460
+Brachyrhaphis_holdridgei      0.185   0.488
+Brycon_argenteus              0.185   0.454
+Brycon_chagrensis             0.185   0.446
+Chaetostoma_fischeri          0.185   0.443
+Chuco_microphthalmus          0.185   0.469
+Cribroheros_diquis            0.185   0.462
+Cryptoheros_chetumalensis     0.185   0.452
+Darienheros_calobrensis       0.185   0.443
+Lebiasina_panamensis          0.185   0.430
+Leptoancistrus_canensis       0.185   0.417
+Maskaheros_argenteus          0.185   0.456
+Maskaheros_regani             0.185   0.473
+Notropis_imeldae              0.185   0.441
+Paraneetroplus_bulleri        0.185   0.458
+Phallichthys_tico             0.185   0.470
+Thorichthys_socolofi          0.185   0.473
+Vieja_hartwegi                0.185   0.471
+Amatitlania_sajica            0.166   0.663
+Astyanax_bacalarensis         0.166   0.645
+Atherinella_guija             0.166   0.632
+Atherinella_sardina           0.166   0.648
+Bryconamericus_zeteki         0.166   0.619
+Chiapaheros_grammodes         0.166   0.651
+Dorosoma_chavesi              0.166   0.634
+Eretmobrycon_terrabensis      0.166   0.638
+Hyphessobrycon_panamensis     0.166   0.625
+Isthmoheros_tuyrensis         0.166   0.627
+Kronoheros_umbrifer           0.166   0.627
+Lebiasina_festae              0.166   0.624
+Leptophilypnus_guatemalensis  0.166   0.651
+Millerichthys_robustus        0.166   0.644
+Panamius_panamensis           0.166   0.631
+Poecilia_petenensis           0.166   0.672
+Rocio_gemmata                 0.166   0.658
+Roeboides_ilseae              0.166   0.663
+Saccodon_dariensis            0.166   0.619
+Sternopygus_aequilabiatus     0.166   0.618
+Sturisomatichthys_citurensis  0.166   0.624
+Xenodexia_ctenolepis          0.166   0.646
+Allodontichthys_hubbsi        0.143   0.570
+Ancistrus_spinosus            0.143   0.576
+Astyanax_belizianus           0.143   0.557
+Astyanax_petenensis           0.143   0.569
+Atherinella_argentea          0.143   0.554
+Atherinella_hubbsi            0.143   0.574
+Atherinella_marvelae          0.143   0.552
+Brachyrhaphis_hartwegi        0.143   0.558
+Brachyrhaphis_olomina         0.143   0.568
+Brachyrhaphis_rhabdophora     0.143   0.572
+Brachyrhaphis_terrabensis     0.143   0.579
+Brycon_petrosus               0.143   0.546
+Carlhubbsia_stuarti           0.143   0.579
+Cathorops_melanopus           0.143   0.573
+Characidium_marshi            0.143   0.559
+Cincelichthys_bocourti        0.143   0.579
+Cribroheros_altifrons         0.143   0.579
+Cribroheros_bussingi          0.143   0.575
+Cribroheros_rhytisma          0.143   0.570
+Hyphessobrycon_bussingi       0.143   0.575
+Hyphessobrycon_savagei        0.143   0.572
+Neoheterandria_cana           0.143   0.550
+Ophisternon_infernale         0.143   0.568
+Paraneetroplus_nebulifer\xca  0.143   0.562
+Phallichthys_quadripunctatus  0.143   0.570
+Poeciliopsis_paucimaculata    0.143   0.579
+Profundulus_parentiae         0.143   0.559
+Pseudoxiphophorus_litoperas   0.143   0.554
+Rineloricaria__altipinnis     0.143   0.555
+Rocio_spinosissima            0.143   0.567
+Tlaloc_candalarius            0.143   0.567
+Tomocichla_asfraci            0.143   0.570
+Ageneiosus_pardalis           0.117   0.659
+Amatitlania_kanna             0.117   0.674
+Amatitlania_nanolutea         0.117   0.657
+Amphilophus_labiatus          0.117   0.658
+Apteronotus_rostratus         0.117   0.659
+Astyanax_acatlanensis         0.117   0.648
+Astyanax_baileyi              0.117   0.646
+Astyanax_caballeroi           0.117   0.651
+Astyanax_dorioni              0.117   0.646
+Astyanax_nasutus              0.117   0.653
+Astyanax_nicaraguensis        0.117   0.674
+Atherinella_ammophila         0.117   0.651
+Brachyrhaphis_punctifer       0.117   0.674
+Brachyrhaphis_roswithae       0.117   0.661
+Brycon_costaricensis          0.117   0.665
+Brycon_obscurus               0.117   0.667
+Chortiheros_wesseli           0.117   0.622
+Cincelichthys_ufermanni       0.117   0.659
+Cynodonichthys_brunneus       0.117   0.651
+Cynodonichthys_chucunaque     0.117   0.642
+Cynodonichthys_godmani        0.117   0.655
+Cynodonichthys_hildebrandi    0.117   0.664
+Cynodonichthys_montium        0.117   0.657
+Cynodonichthys_rubripunctatus 0.117   0.640
+Gambusia_eurystoma            0.117   0.663
+Heterophallus_milleri         0.117   0.663
+Hiatirhaphis_parismina        0.117   0.665
+Imparfinis_lineatus           0.117   0.658
+Kryptolebias_marmoratus       0.117   0.677
+Lacantunia_enigmatica         0.117   0.659
+Lebiasina_boruca              0.117   0.658
+Mesoheros_atromaculatus       0.117   0.651
+Notropis_boucardi             0.117   0.645
+Notropis_moralesi             0.117   0.643
+Phenagoniates_macrolepis      0.117   0.641
+Poecilia_rositae              0.117   0.646
+Poecilia_sulphuraria          0.117   0.663
+Poecilia_teresae              0.117   0.655
+Potamarius_usumacintae        0.117   0.659
+Priapella_bonita              0.117   0.677
+Priapella_olmecae             0.117   0.651
+Priapichthys_puetzi           0.117   0.657
+Profundulus_kreiseri          0.117   0.667
+Profundulus_oaxacae           0.117   0.632
+Pseudocheirodon_terrabae      0.117   0.658
+Pseudophallus_elcapitanensis  0.117   0.660
+Pseudoxiphophorus_obliquus    0.117   0.664
+Pseudoxiphophorus_tuxtlaensis 0.117   0.651
+Rhamdia_reddelli              0.117   0.645
+Rheoheros_coeruleus           0.117   0.645
+Roeboides_bussingi            0.117   0.666
+Roeboides_carti               0.117   0.651
+Roeboides_dayi                0.117   0.670
+Scolichthys_greenwayi         0.117   0.646
+Talamancaheros_underwoodi     0.117   0.669
+Xiphophorus_milleri           0.117   0.651
+Xiphophorus_mixei             0.117   0.669
+Xiphophorus_monticolus        0.117   0.669
+Algansea_avia                 0.083   1.000
+Allodontichthys_tamazulae     0.083   1.000
+Amatitlania_coatepeque        0.083   1.000
+Amatitlania_myrnae            0.083   1.000
+Amatitlania_septemfasciata    0.083   1.000
+Amphilophus_amarillo          0.083   1.000
+Amphilophus_astorquii         0.083   1.000
+Amphilophus_chancho           0.083   1.000
+Amphilophus_flaveolus         0.083   1.000
+Amphilophus_globosus          0.083   1.000
+Amphilophus_hogaboomorum      0.083   1.000
+Amphilophus_lyonsi            0.083   1.000
+Amphilophus_sagittae          0.083   1.000
+Amphilophus_supercilius       0.083   1.000
+Amphilophus_xiloaensis        0.083   1.000
+Amphilophus_zaliosus          0.083   1.000
+Astroblepus_mendezi           0.083   1.000
+Astroblepus_pirrensis         0.083   1.000
+Astyanax_anai                 0.083   1.000
+Astyanax_brevimanus           0.083   1.000
+Astyanax_cocibolca            0.083   1.000
+Astyanax_finitimus            0.083   1.000
+Astyanax_kompi                0.083   1.000
+Astyanax_macal                0.083   1.000
+Astyanax_ocotal               0.083   1.000
+Astyanax_tehuacanensis        0.083   1.000
+Atherinella_callida           0.083   1.000
+Atherinella_jiloaensis        0.083   1.000
+Atherinella_lisa              0.083   1.000
+Atherinella_pellosemeion      0.083   1.000
+Caecieleotris_morrisi         0.083   1.000
+Crossoloricaria_variegata     0.083   1.000
+Cynodonichthys_birkhahni      0.083   1.000
+Cynodonichthys_frommi         0.083   1.000
+Cynodonichthys_fuscolineatus  0.083   1.000
+Cynodonichthys_glaucus        0.083   1.000
+Cynodonichthys_kuelpmanni     0.083   1.000
+Cynodonichthys_monikae        0.083   1.000
+Cynodonichthys_siegfriedi     0.083   1.000
+Cynodonichthys_uroflammeus    0.083   1.000
+Cynodonichthys_wassmanni      0.083   1.000
+Cynodonichthys_weberi         0.083   1.000
+Cyprinodon_beltrani           0.083   1.000
+Cyprinodon_labiosus           0.083   1.000
+Cyprinodon_maya               0.083   1.000
+Cyprinodon_simus              0.083   1.000
+Cyprinodon_suavium            0.083   1.000
+Cyprinodon_verecundus         0.083   1.000
+Dasyloricaria_latiura         0.083   1.000
+Eigenmannia_meeki             0.083   1.000
+Eretmobrycon_bayano           0.083   1.000
+Eretmobrycon_emperador        0.083   1.000
+Eretmobrycon_gonzalezi        0.083   1.000
+Gymnotus_panamensis           0.083   1.000
+Hoplosternum_punctatum        0.083   1.000
+Ilyodon_lennoni               0.083   1.000
+Mayaheros_aguadae             0.083   1.000
+Mayaheros_ericymba            0.083   1.000
+Mayaheros_trispilus           0.083   1.000
+Notropis_cumingii             0.083   1.000
+Odontostilbe_mitoptera        0.083   1.000
+Paraneetroplus_gibbiceps      0.083   1.000
+Paraneetroplus_omonti         0.083   1.000
+Pimelodus_punctatus           0.083   1.000
+Poecilia_catemaconis          0.083   1.000
+Poecilia_thermalis            0.083   1.000
+Poeciliopsis_catemaco         0.083   1.000
+Poeciliopsis_santaelena       0.083   1.000
+Poeciliopsis_turneri          0.083   1.000
+Potamarius_izabalensis        0.083   1.000
+Priapella_chamulae            0.083   1.000
+Priapella_lacandonae          0.083   1.000
+Profundulus_adani             0.083   1.000
+Profundulus_balsanus          0.083   1.000
+Profundulus_chimalapensis     0.083   1.000
+Profundulus_mixtlanensis      0.083   1.000
+Pseudophallus_galadrielae     0.083   1.000
+Pseudoxiphophorus_attenuatus  0.083   1.000
+Pseudoxiphophorus_cataractae  0.083   1.000
+Pseudoxiphophorus_diremptus   0.083   1.000
+Pterobrycon_myrnae            0.083   1.000
+Rhamdia_laluchensis           0.083   1.000
+Rhamdia_macuspanensis         0.083   1.000
+Rhamdia_zongolicensis         0.083   1.000
+Rocio_ocotal                  0.083   1.000
+Roeboides_loftini             0.083   1.000
+Scolichthys_iota              0.083   1.000
+Spatuloricaria_fimbriata      0.083   1.000
+Sternopygus_dariensis         0.083   1.000
+Sturisomatichthys_dariensis   0.083   1.000
+Thorichthys_panchovillai      0.083   1.000
+Tlaloc_hildebrandi            0.083   1.000
+Tlaloc_portillorum            0.083   1.000
+Trachelyopterus_amblops       0.083   1.000
+Xenotaenia_resolanae          0.083   1.000
+Xenotoca_lyonsi               0.083   1.000
+Xiphophorus_andersi           0.083   1.000
+Xiphophorus_kallmani          0.083   1.000
+Xiphophorus_signum            0.083   1.000
+
+ Group 5  #sps.  1 
+               stat p.value  
+Gila_ditaenia 0.973   0.055 .
+
+ Group 6  #sps.  1 
+              stat p.value  
+Gila_eremica 0.973    0.04 *
+
+ Group 7  #sps.  4 
+                        stat p.value  
+Ictalurus_lupus        0.881   0.086 .
+Pantosteus_nebuliferus 0.652   0.172  
+Notropis_nazas         0.631   0.189  
+Gila_conspersa         0.625   0.259  
+
+ Group 8  #sps.  153 
+                              stat p.value
+Cyprinella_lutrensis         0.760   0.382
+Gambusia_affinis             0.699   0.504
+Campostoma_ornatum           0.636   0.526
+Carpiodes_carpio             0.632   0.515
+Lepomis_cyanellus            0.600   0.490
+Codoma_ornata                0.577   0.441
+Lepomis_megalotis            0.548   0.460
+Notropis_braytoni            0.548   0.459
+Ictalurus_punctatus          0.538   0.454
+Dionda_episcopa              0.527   0.467
+Ameiurus_melas               0.521   0.478
+Dorosoma_cepedianum          0.516   0.462
+Herichthys_cyanoguttatus     0.516   0.466
+Pimephales_promelas          0.494   0.456
+Pylodictis_olivaris          0.494   0.431
+Macrhybopsis_aestivalis      0.483   0.440
+Pantosteus_plebeius          0.483   0.418
+Notropis_jemezanus           0.471   0.417
+Cyprinella_formosa           0.459   0.401
+Agosia_chrysogaster          0.452   0.404
+Poecilia_formosa             0.447   0.386
+Ictalurus_pricei             0.445   0.488
+Lepisosteus_osseus           0.435   0.370
+Notropis_chihuahua           0.435   0.364
+Rhinichthys_cataractae       0.435   0.353
+Gila_nigrescens              0.422   0.341
+Pimephales_vigilax           0.422   0.360
+Etheostoma_pottsii           0.394   0.329
+Gila_pulchra                 0.394   0.318
+Poeciliopsis_occidentalis    0.392   0.370
+Cyprinodon_variegatus        0.385   0.393
+Gambusia_senilis             0.380   0.304
+Notropis_amabilis            0.380   0.296
+Poecilia_latipinna           0.380   0.300
+Cyprinodon_eximius           0.365   0.288
+Gila_minacae                 0.365   0.262
+Cyprinella_proserpina        0.350   0.260
+Notropis_buchanani           0.350   0.270
+Hybognathus_amarus           0.333   0.236
+Ictiobus_niger               0.333   0.253
+Aplodinotus_grunniens        0.318   0.514
+Cyprinella_rubripinna        0.316   0.257
+Cyprinodon_pisteri           0.316   0.230
+Gila_robusta                 0.316   0.219
+Poeciliopsis_monacha         0.306   0.320
+Catostomus_cahita            0.298   0.237
+Cyprinodon_nazas             0.298   0.247
+Dionda_melanops              0.298   0.232
+Etheostoma_australe          0.298   0.230
+Notropis_stramineus          0.298   0.210
+Tiaroga_cobitis              0.298   0.242
+Catostomus_conchos           0.279   0.215
+Cyprinella_rutila            0.279   0.220
+Cyprinodon_macularius        0.279   0.217
+Fundulus_grandis             0.279   0.222
+Gambusia_marshi              0.279   0.203
+Notropis_tropicus            0.279   0.212
+Gambusia_panuco              0.278   0.304
+Catostomus_leopoldi          0.258   0.225
+Cyprinella_panarcys          0.258   0.238
+Etheostoma_grahami           0.258   0.222
+Lepisosteus_oculatus         0.258   0.219
+Tampichthys_erimyzonops      0.258   0.246
+Ictalurus_australis          0.246   0.295
+Catostomus_wigginsi          0.236   0.176
+Gambusia_quadruncus          0.236   0.189
+Notropis_aguirrepequenoi     0.236   0.195
+Notropis_saladonis           0.236   0.173
+Xiphophorus_birchmanni       0.236   0.170
+Xiphophorus_pygmaeus         0.236   0.197
+Ameiurus_natalis             0.211   0.261
+Atractosteus_spatula         0.211   0.289
+Campostoma_anomalum          0.211   0.274
+Cyprinodon_albivelis         0.211   0.274
+Fundulus_similis             0.211   0.268
+Gambusia_aurata              0.211   0.287
+Gila_purpurea                0.211   0.260
+Moxostoma_milleri            0.211   0.277
+Poecilia_latipunctata        0.211   0.287
+Prietella_phreatophila       0.211   0.262
+Xiphophorus_montezumae       0.211   0.278
+Xiphophorus_nezahualcoyotl   0.211   0.269
+Xiphophorus_xiphidium        0.211   0.286
+Cyprinella_xanthicara        0.183   0.429
+Cyprinodon_atrorus           0.183   0.429
+Gambusia_krumholzi           0.183   0.424
+Herichthys_minckleyi         0.183   0.421
+Ictiobus_labiosus            0.183   0.440
+Prietella_lundbergi          0.183   0.426
+Xiphophorus_cortezi          0.183   0.408
+Xiphophorus_gordoni          0.183   0.429
+Xiphophorus_multilineatus    0.183   0.440
+Xiphophorus_nigrensis        0.183   0.422
+Characodon_audax             0.149   0.402
+Characodon_lateralis         0.149   0.402
+Chirostoma_mezquital         0.149   0.410
+Cycleptus_elongatus          0.149   0.381
+Cyprinella_alvarezdelvillari 0.149   0.406
+Cyprinella_bocagrande        0.149   0.401
+Cyprinodon_eremus            0.149   0.400
+Cyprinodon_meeki             0.149   0.402
+Dionda_diaboli               0.149   0.382
+Etheostoma_lugoi             0.149   0.395
+Etheostoma_segrex            0.149   0.375
+Gambusia_atrora              0.149   0.376
+Gila_elegans                 0.149   0.407
+Gila_modesta                 0.149   0.381
+Herichthys_pame              0.149   0.372
+Herichthys_steindachneri     0.149   0.372
+Herichthys_tamasopoensis     0.149   0.372
+Ictiobus_bubalus             0.149   0.383
+Lucania_interioris           0.149   0.376
+Notropis_megalops            0.149   0.392
+Percina_macrolepida          0.149   0.412
+Ptychocheilus_lucius         0.149   0.407
+Rhinichthys_osculus          0.149   0.381
+Tampichthys_catostomops      0.149   0.372
+Tampichthys_rasconis         0.149   0.372
+Xiphophorus_evelynae         0.149   0.360
+Xiphophorus_meyeri           0.149   0.393
+Xyrauchen_texanus            0.149   0.407
+Atherinella_elegans          0.130   0.762
+Astyanax_argentatus          0.105   0.458
+Astyanax_tamiahua            0.105   0.483
+Catostomus_insignis          0.105   0.469
+Characodon_garmani           0.105   0.483
+Cyprinodon_bifasciatus       0.105   0.486
+Cyprinodon_bobmilleri        0.105   0.492
+Cyprinodon_fontinalis        0.105   0.475
+Cyprinodon_julimes           0.105   0.481
+Cyprinodon_latifasciatus     0.105   0.483
+Cyprinodon_macrolepis        0.105   0.499
+Cyprinodon_pachycephalus     0.105   0.481
+Cyprinodon_salvadori         0.105   0.490
+Fundulus_philpisteri         0.105   0.492
+Gambusia_alvarezi            0.105   0.486
+Gambusia_clarkhubbsi         0.105   0.482
+Gambusia_hurtadoi            0.105   0.499
+Gambusia_longispinis         0.105   0.486
+Gambusia_zarskei             0.105   0.481
+Gila_brevicauda              0.105   0.466
+Herichthys_tepehua           0.105   0.483
+Meda_fulgida                 0.105   0.475
+Moxostoma_albidum            0.105   0.473
+Notropis_aulidion            0.105   0.512
+Notropis_calabazas           0.105   0.457
+Notropis_orca                0.105   0.470
+Notropis_simus               0.105   0.470
+Pantosteus_clarkii           0.105   0.469
+Poeciliopsis_jackschultzi    0.105   0.475
+Stypodon_signifer            0.105   0.483
+Xiphophorus_continens        0.105   0.481
+Xiphophorus_couchianus       0.105   0.473
+
+ Group 9  #sps.  97 
+                               stat p.value  
+Algansea_tincella             0.909   0.070 .
+Yuriria_alta                  0.887   0.179  
+Goodea_atripinnis             0.886   0.093 .
+Chirostoma_jordani            0.860   0.218  
+Aztecula_sallaei              0.812   0.272  
+Poeciliopsis_infans           0.798   0.304  
+Notropis_calientis            0.775   0.195  
+Xenotoca_variata              0.770   0.213  
+Ictalurus_dugesii             0.753   0.263  
+Chirostoma_humboldtianum      0.737   0.179  
+Moxostoma_austrinum           0.724   0.235  
+Chirostoma_arge               0.707   0.169  
+Alloophorus_robustus          0.666   0.178  
+Allotoca_dugesii              0.666   0.179  
+Zoogoneticus__quitzeoensis    0.592   0.164  
+Girardinichthys_multiradiatus 0.586   0.184  
+Chapalichthys_encaustus       0.548   0.136  
+Neotoca_bilineata             0.542   0.175  
+Skiffia_multipunctata         0.542   0.171  
+Chirostoma_aculeatum          0.447   0.100 .
+Tetrapleurodon_geminis        0.447   0.097 .
+Tetrapleurodon_spadiceus      0.447   0.100 .
+Yuriria_chapalae              0.447   0.099 .
+Allotoca_maculata             0.440   0.111  
+Zoogoneticus_purhepechus      0.440   0.114  
+Algansea_monticola            0.419   0.187  
+Poecilia_maylandi             0.407   0.240  
+Ilyodon_whitei                0.402   0.254  
+Ictalurus_balsanus            0.396   0.276  
+Chirostoma_chapalae           0.387   0.078 .
+Chirostoma_estor              0.387   0.089 .
+Chirostoma_labarcae           0.387   0.078 .
+Girardinichthys_turneri       0.387   0.081 .
+Girardinichthys_viviparus     0.387   0.064 .
+Skiffia_lermae                0.387   0.080 .
+Ilyodon_furcidens             0.363   0.140  
+Ictalurus_mexicanus           0.322   0.219  
+Atherinella_balsana           0.321   0.322  
+Poeciliopsis_balsas           0.321   0.320  
+Algansea_popoche              0.316   0.061 .
+Allotoca_catarinae            0.316   0.053 .
+Allotoca_goslinei             0.316   0.055 .
+Chapalichthys_pardalis        0.316   0.053 .
+Chirostoma_chapale            0.316   0.061 .
+Chirostoma_melanoccus         0.316   0.055 .
+Chirostoma_riojai             0.316   0.062 .
+Chirostoma_sphyraena          0.316   0.061 .
+Evarra_bustamantei            0.316   0.047 *
+Evarra_eigenmanni             0.316   0.047 *
+Notropis_amecae               0.316   0.055 .
+Notropis_grandis              0.316   0.056 .
+Zoogoneticus_tequila          0.316   0.055 .
+Amphilophus_istlanus          0.316   0.356  
+Allotoca_regalis              0.306   0.085 .
+Ameca_splendens               0.306   0.088 .
+Moxostoma_mascotae            0.306   0.088 .
+Xenotoca_eiseni               0.306   0.080 .
+Ataeniobius_toweri            0.300   0.076 .
+Herichthys_bartoni            0.300   0.076 .
+Herichthys_labridens          0.300   0.076 .
+Tampichthys_dichroma          0.300   0.076 .
+Algansea_aphanea              0.297   0.121  
+Allodontichthys_zonistius     0.297   0.119  
+Poecilia_chica                0.297   0.119  
+Xenotoca_melanosoma           0.297   0.119  
+Pseudoxiphophorus_jonesii     0.289   0.422  
+Gobiesox_fluviatilis          0.246   0.393  
+Algansea_amecae               0.224   0.150  
+Algansea_barbata              0.224   0.157  
+Algansea_lacustris            0.224   0.167  
+Allotoca_diazi                0.224   0.167  
+Allotoca_meeki                0.224   0.167  
+Allotoca_zacapuensis          0.224   0.167  
+Chirostoma_attenuatum         0.224   0.167  
+Chirostoma_bartoni            0.224   0.138  
+Chirostoma_charari            0.224   0.167  
+Chirostoma_compressum         0.224   0.138  
+Chirostoma_contrerasi         0.224   0.157  
+Chirostoma_copandaro          0.224   0.167  
+Chirostoma_reseratum          0.224   0.156  
+Chirostoma_zirahuen           0.224   0.167  
+Evarra_tlahuacensis           0.224   0.150  
+Ilyodon_cortesae              0.224   0.167  
+Notropis_marhabatiensis       0.224   0.171  
+Poblana_alchichica            0.224   0.142  
+Poblana_ferdebueni            0.224   0.150  
+Poblana_letholepis            0.224   0.142  
+Poblana_squamata              0.224   0.142  
+Xenotoca_doadrioi             0.224   0.150  
+Yuriria_amatlana              0.224   0.150  
+Allodontichthys_polylepis     0.210   0.224  
+Skiffia_francesae             0.210   0.242  
+Astyanax_rioverde             0.202   0.269  
+Tampichthys_mandibularis      0.202   0.246  
+Cualac_tessellatus            0.186   0.387  
+Xiphophorus_malinche          0.186   0.391  
+Poeciliopsis_baenschi         0.180   0.517  
+
+ Group 10  #sps.  7 
+                          stat p.value  
+Cyprinodon_alvarezi      1.000   0.017 *
+Cyprinodon_inmemoriam    1.000   0.017 *
+Megupsilon_aporus        1.000   0.017 *
+Cyprinodon_ceciliae      0.994   0.030 *
+Cyprinodon_longidorsalis 0.994   0.030 *
+Cyprinodon_veronicae     0.994   0.030 *
+Gambusia_speciosa        0.917   0.067 .
+
+ Group 4+8  #sps.  11 
+                          stat p.value
+Dorosoma_petenense       0.451   0.714
+Ictalurus_furcatus       0.412   0.682
+Awaous_banana            0.338   0.587
+Mayaheros_beani          0.268   0.646
+Poeciliopsis_prolifica   0.268   0.630
+Dorosoma_smithi          0.225   0.734
+Lucania_parva            0.184   0.820
+Heterophallus_rachovii   0.146   1.000
+Poeciliopsis_lucida      0.130   1.000
+Herichthys_deppii        0.092   1.000
+Poeciliopsis_sonoriensis 0.092   1.000
+
+ Group 4+9  #sps.  9 
+                               stat p.value
+Astyanax_aeneus               0.790   0.279
+Poecilia_sphenops             0.609   0.773
+Pseudoxiphophorus_bimaculatus 0.538   0.627
+Poecilia_nelsoni              0.497   0.566
+Xiphophorus_helleri           0.470   0.619
+Ictiobus_meridionalis         0.310   0.408
+Poeciliopsis_viriosa          0.280   0.365
+Atherinella_crystallina       0.259   0.513
+Poecilia_butleri              0.259   0.494
+
+ Group 8+9  #sps.  10 
+                         stat p.value
+Astyanax_mexicanus      0.681   0.600
+Micropterus_salmoides   0.548   0.460
+Poecilia_limantouri     0.489   0.538
+Lepomis_macrochirus     0.477   0.493
+Xiphophorus_variatus    0.359   0.352
+Herichthys_carpintis    0.357   0.305
+Herichthys_pantostictus 0.316   0.265
+Tampichthys_ipni        0.310   0.313
+Gambusia_vittata        0.302   0.241
+Gambusia_regani         0.279   0.305
+
+ Group 1+4+9  #sps.  1 
+                      stat p.value
+Awaous_transandeanus 0.596   0.779
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1 
+> ###############################################################################################################################
+> #Interrogar el programa para saber que filas comprende cada cluster
+> table(grp)
+grp
+  1   2   3   4   5   6   7   8   9  10 
+ 16   1   1 146   1   1   2  90  20   1 
